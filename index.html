@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Contador</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1 id="title">CONTADOR DINÂMICO</h1>
+        <div id="number">0</div>
+        <h1 id="text-number"></h1>
+        <div id="buttons">
+            <button id="button1" onclick="changeNumber(-1)"><i class="fa-solid fa-minus"></i></button>
+            <button id="button2" onclick="changeNumber(1)"><i class="fa-solid fa-plus"></i></button>
+        </div>
+        <button id="toggleBtn" onclick="toggleNegative()">SOMENTE POSITIVOS</button>
+    </div>
+</body>
+<script src="assets/script.js"></script>
+
+</html>
