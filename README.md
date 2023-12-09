@@ -1,4 +1,4 @@
-<h1>▶️<a href="https://rubens-costa.github.io/contadorDinamico/"> Contador Dinâmico </a></h1>
+<h1>➕➖<a href="https://rubens-costa.github.io/contadorDinamico/"> Contador Dinâmico </a></h1>
 <h2> Descrição </h2>
 
 <p>Aplicação web criada para adicionar e subtrair números, bem como destacar números pares, negativos e positivos. Desenvolvida com as tecnologias:</p>
